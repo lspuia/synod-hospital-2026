@@ -196,11 +196,23 @@ export default function ServicesPage() {
                 <li style={{ breakInside: 'avoid' }}>A scan with keratometer</li>
               </ul>
               <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '13px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '12px' }}>Consultants</div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <div style={{ fontWeight: 600 }}>Dr R Lalrindiki MBBS, DO, FVRS</div>
-                <div style={{ fontWeight: 600 }}>Dr Lalramengmawii MBBS, DO</div>
-                <div style={{ fontWeight: 600 }}>Dr Regina Lalramhluni MBBS, MS (Fellowship in Paediatric Ophthalmology)</div>
-                <div style={{ fontWeight: 600 }}>Dr Mac Malsawmtluanga MBBS, MS</div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div>
+                  <div style={{ fontWeight: 600, marginBottom: '5px' }}>Dr R Lalrindiki MBBS, DO, FVRS</div>
+                  <div style={{ fontSize: '14px', lineHeight: 1.7, color: 'var(--muted)' }}><strong style={{ color: 'var(--ink)' }}>Hospital:</strong> Monday, Wednesday<br /><strong style={{ color: 'var(--ink)' }}>Dr Frasers&apos; Clinic:</strong> Saturday</div>
+                </div>
+                <div>
+                  <div style={{ fontWeight: 600, marginBottom: '5px' }}>Dr Lalramengmawii MBBS, DO</div>
+                  <div style={{ fontSize: '14px', lineHeight: 1.7, color: 'var(--muted)' }}><strong style={{ color: 'var(--ink)' }}>Hospital:</strong> Friday<br /><strong style={{ color: 'var(--ink)' }}>Dr Frasers&apos; Clinic:</strong> Monday, Thursday</div>
+                </div>
+                <div>
+                  <div style={{ fontWeight: 600, marginBottom: '5px' }}>Dr Regina Lalramhluni MBBS, MS (Fellowship in Paediatric Ophthalmology)</div>
+                  <div style={{ fontSize: '14px', lineHeight: 1.7, color: 'var(--muted)' }}><strong style={{ color: 'var(--ink)' }}>Hospital:</strong> Saturday<br /><strong style={{ color: 'var(--ink)' }}>Dr Frasers&apos; Clinic:</strong> Tuesday, Wednesday</div>
+                </div>
+                <div>
+                  <div style={{ fontWeight: 600, marginBottom: '5px' }}>Dr Mac Malsawmtluanga MBBS, MS</div>
+                  <div style={{ fontSize: '14px', lineHeight: 1.7, color: 'var(--muted)' }}><strong style={{ color: 'var(--ink)' }}>Hospital:</strong> Tuesday, Thursday<br /><strong style={{ color: 'var(--ink)' }}>Dr Frasers&apos; Clinic:</strong> Friday</div>
+                </div>
               </div>
             </div>
             <Plate src="/images/synod-hospital-eye-01.jpg" alt="Eye unit" />
@@ -267,29 +279,60 @@ export default function ServicesPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px', marginTop: '20px' }}>
             <div>
               <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 12px' }}>
-                <strong>I. HIV & Grace Home</strong> – A 20 bedded hospice for HIV was started in 2004 as the Church&apos;s response to an increasing HIV burden in the state. It continues to remain the only hospice for HIV in Mizoram/Northeast, making it a unique initiative of the hospital.
+                <strong>I. HIV & Grace Home</strong> – A 20 bedded hospice for HIV was started in 2004 as the Church&apos;s response to an increasing HIV burden in the state. It continues to remain the only hospice for HIV in Mizoram/Northeast, making it a unique initiative of the hospital. Initially started as a &apos;Community Care Centre&apos; under NACO/MSACS, it was taken over by the Mizoram Presbyterian Church in 2012. The Presbyterian Church of Wales provided financial support for the construction of the current building along with CKTP and friends from Wales and Scotland.
               </p>
               <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 12px' }}>
-                CART (Community ART Refill Group) model was recently introduced at Grace Home by Mizoram State AIDS Control Society. Through this programme, patients already on ART can get their monthly refill of medicines from Grace Home.
+                CART (Community ART Refill Group) model was recently introduced at Grace Home by Mizoram State AIDS Control Society. Through this programme, patients already on ART can get their monthly refill of medicines from Grace Home, without the need to go to the main ART Centres at Civil Hospital or Kulikawn Hospital.
               </p>
-              <p style={{ fontSize: '14px', lineHeight: 1.7, margin: '0 0 16px' }}>
+              <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 8px' }}>
+                To offer the best possible medical, emotional and psychosocial care for our patients with HIV/AIDS, we offer the following services:
+              </p>
+              <ul className="bullet-list" style={{ marginBottom: '16px' }}>
+                <li>HIV testing and diagnosis</li>
+                <li>HIV pre and post-test counselling</li>
+                <li>Initiation of ART (anti-retroviral therapy) drugs</li>
+                <li>ART adherence counselling</li>
+                <li>Opportunistic Infection (OI) management</li>
+                <li>Palliative and end of life care</li>
+              </ul>
+              <p style={{ fontSize: '14px', lineHeight: 1.7, margin: '0 0 20px' }}>
                 <strong>Contact:</strong> <a href="mailto:gracehomedurtlang@gmail.com">gracehomedurtlang@gmail.com</a> | <a href="tel:+919366095152">+91 93660 95152</a>
               </p>
               <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 12px' }}>
-                <strong>II. Substance Abuse & K-Ward</strong> – K ward is a 30 bedded ward for substance (alcohol, opioid, benzodiazepines etc.) dependency. It was started in 2000 as a separate ward specifically for detoxification and management of wound/abscess due to intravenous injection.
+                <strong>II. Substance Abuse & K-Ward</strong> – K ward is a 30 bedded ward for substance (alcohol, opioid, benzodiazepines etc.) dependency. It was started in 2000 as a separate ward specifically for detoxification and management of wound/abscess due to intravenous injection. The ward has two floors, the top floor is 15 bedded and meant for detoxification while the ground floor which is also 15 bedded is for wound/abscess management. Group/individual counselling, family counselling, health talks and other input classes are held on a regular basis.
+              </p>
+              <p style={{ fontSize: '14px', lineHeight: 1.7, margin: '0 0 20px' }}>
+                <strong>Contact:</strong> <a href="tel:+919774186936">+91 97741 86936</a>
               </p>
               <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 12px' }}>
-                <strong>III. Palliative Care</strong> – In collaboration with Pallium India, Kerala, the existing informal palliative work at our hospital was formalized in February 2016.
+                <strong>III. Palliative Care</strong> – In collaboration with Pallium India, Kerala (which is a World Health Organization Collaborating Centre (WHOCC) for Training and Policy on Access to Pain Relief), the existing informal palliative work at our hospital was formalized in February 2016.
               </p>
-              <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '13px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '12px', marginTop: '20px' }}>Consultants</div>
+              <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 12px' }}>
+                A palliative unit came into being with a focus on Cancer, chronic incurable diseases like stroke/paraplegia etc. along with HIV. Since the inception, two doctors and four nurses along with our social worker have undergone training at either Pallium Kerala or MNJ Hyderabad.
+              </p>
+              <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 12px' }}>
+                Our hospital&apos;s palliative care functions through home-visit, outpatient and inpatient/referrals. Palliative patients at Leitan, Durtlang, Selesih and Sihphir are currently given home-based care on our weekly home visits. Our vision is also to cover Aizawl city once we have more manpower/financial resources.
+              </p>
+              <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 12px' }}>
+                Pain management through morphine, catheter change, wound dressing, bed sore management, lymphedema care, colostomy care, pleural/ascetic tapping, to name a few are some of the care/services given at home on such home visits. These services are provided free of cost, possible through donations from our well-wishers – Mizo&apos;s and Non-Mizo&apos;s. We are also supporting twelve low socioeconomic families (cancer or HIV) since November 2017 with food kit worth Rs.1000.
+              </p>
+              <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 12px' }}>
+                Since February 2016, we have 121 patients registered under our care and most of them are from the above-mentioned areas of Leitan, Durtlang etc. And we have gone on nearly 500 home visits since then.
+              </p>
+              <p style={{ fontSize: '14px', lineHeight: 1.7, margin: '0 0 20px' }}>
+                <strong>Contact:</strong> <a href="tel:+919774186936">+91 97741 86936</a>
+              </p>
+              <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '13px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '12px' }}>Consultants</div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 <div>
                   <div style={{ fontWeight: 600, marginBottom: '4px' }}>Dr R.L.Sanghluna MBBS</div>
-                  <div style={{ fontSize: '13.5px', lineHeight: 1.6, color: 'var(--muted)' }}>Fellowship in HIV Medicine (School of Tropical Medicine, Calcutta)<br />Certificate Course in Pain & Palliative Medicine (MNJ Institute of Oncology)</div>
+                  <div style={{ fontSize: '13.5px', lineHeight: 1.6, color: 'var(--muted)' }}>Fellowship in HIV Medicine (School of Tropical Medicine, Calcutta)<br />Certificate Course in Pain & Palliative Medicine (MNJ Institute of Oncology & Regional Cancer Centre, Hyderabad)</div>
+                  <div style={{ fontSize: '14px', marginTop: '6px' }}><strong>OPD:</strong> Tuesday, Friday</div>
                 </div>
                 <div>
                   <div style={{ fontWeight: 600, marginBottom: '4px' }}>Dr Lalchhanhima Ralte MBBS, MPH</div>
-                  <div style={{ fontSize: '13.5px', lineHeight: 1.6, color: 'var(--muted)' }}>Diploma in HIV Management (Stellenbosch University, South Africa)<br />Fulbright Fellow in Substance Abuse (USA)</div>
+                  <div style={{ fontSize: '13.5px', lineHeight: 1.6, color: 'var(--muted)' }}>Diploma in HIV Management (Africa Centre for HIV & AIDS, Stellenbosch University, South Africa)<br />Certificate Course in Pain & Palliative Medicine (Pallium India, Trivandrum)<br />Fulbright Fellow in Substance Abuse (USA)</div>
+                  <div style={{ fontSize: '14px', marginTop: '6px' }}><strong>Motivate Clinic:</strong> Saturday (By appointment only – Whatsapp message @8043328786)</div>
                 </div>
               </div>
             </div>
@@ -309,10 +352,19 @@ export default function ServicesPage() {
                 We also provide a wide range of gynaecological services, including cancer surgeries, infertility treatment, and open and laparoscopic surgeries for a variety of gynaecological disorders.
               </p>
               <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '13px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '12px' }}>Consultants</div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                <div style={{ fontWeight: 600 }}>Dr K Lalremmawia MBBS, MD, DGO</div>
-                <div style={{ fontWeight: 600 }}>Dr Lalthakimi Darngawn MBBS, MD, DGO</div>
-                <div><div style={{ fontWeight: 600 }}>Dr Vanlalkima MBBS, DGO</div><div style={{ fontSize: '14px', color: 'var(--muted)' }}>Currently pursuing Secondary DNB (Obs & Gynae) at Nazareth Hospital, Shillong.</div></div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div>
+                  <div style={{ fontWeight: 600, marginBottom: '5px' }}>Dr K Lalremmawia MBBS, MD, DGO</div>
+                  <div style={{ fontSize: '14px', lineHeight: 1.7, color: 'var(--muted)' }}><strong style={{ color: 'var(--ink)' }}>Hospital:</strong> Tuesday, Friday<br />(Antenatal clinic on Saturday)</div>
+                </div>
+                <div>
+                  <div style={{ fontWeight: 600, marginBottom: '5px' }}>Dr Lalthakimi Darngawn MBBS, MD, DGO</div>
+                  <div style={{ fontSize: '14px', lineHeight: 1.7, color: 'var(--muted)' }}><strong style={{ color: 'var(--ink)' }}>Hospital:</strong> Monday, Wednesday<br />(Antenatal clinic on Saturday)</div>
+                </div>
+                <div>
+                  <div style={{ fontWeight: 600, marginBottom: '5px' }}>Dr Vanlalkima MBBS, DGO</div>
+                  <div style={{ fontSize: '14px', color: 'var(--muted)' }}>Currently pursuing Secondary DNB (Obs & Gynae) at Nazareth Hospital, Shillong.</div>
+                </div>
               </div>
             </div>
             <Plate src="/images/synod-hospital-gynae-Laparoscopy.jpg" alt="Obstetrics & Gynaecology" />
