@@ -8,18 +8,19 @@ export const metadata: Metadata = {
 };
 
 const phoneList = [
-  { label: 'Casualty', nums: ['8415921575'] },
-  { label: 'Hospital', nums: ['(0389) 2361730'] },
-  { label: 'OPD Registration', nums: ['(0389) 2361721'] },
-  { label: 'Private Cabin Booking', nums: ['(0389) 2361723'] },
-  { label: 'Blood Bank', nums: ['(0389) 2361724'] },
-  { label: 'Eye OPD', nums: ['8414953735'] },
-  { label: 'ENT OPD', nums: ['8414905736'] },
+  { label: 'Casualty', nums: ['8415921575', '9426744550', '7085091022 (EPABX)'] },
+  { label: 'Administrative Office', nums: ['0389-2361122'] },
+  { label: 'Co-ordinator', nums: ['0389-2361183'] },
+  { label: 'Nursing School', nums: ['0389-2361720'] },
+  { label: 'ICU', nums: ['0389-2362240'] },
+  { label: 'NICU', nums: ['9436757228'] },
+  { label: 'Lawmna ward (Obstetrics ward)', nums: ['9402328097'] },
+  { label: 'K Ward', nums: ['9774186936'] },
   { label: 'Grace Home', nums: ['9366095152'] },
-  { label: 'K-Ward', nums: ['9774186936'] },
-  { label: 'Dr Fraser\'s Clinic', nums: ['(0389) 2310123'] },
-  { label: 'Millennium Center Clinic', nums: ['9862365304'] },
-  { label: 'College of Nursing', nums: ['(0389) 2361720'] },
+  { label: 'Naupang ward (Paediatrics ward)', nums: ['9366047857'] },
+  { label: 'NCB (Private cabin - old)', nums: ['8119967754'] },
+  { label: 'Pi Puii In (Private cabin - new)', nums: ['8974927270'] },
+  { label: 'Medical ward', nums: ['7085894067'] },
 ];
 
 export default function ContactPage() {
