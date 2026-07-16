@@ -64,7 +64,7 @@ export default function Header() {
             height={88}
             style={{ objectFit: 'contain', flex: 'none' }}
           />
-          <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2px' }}>
+          <span style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <span
               style={{
                 fontFamily: 'var(--font-heading)',
