@@ -1,0 +1,6 @@
+# Robots.txt for Synod Hospital
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.synodhospital.org/sitemap.xml
