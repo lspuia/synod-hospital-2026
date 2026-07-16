@@ -404,7 +404,7 @@ export default function ServicesPage() {
                 Our Paediatrics team deals with various kinds of childhood illness, ranging from a simple cough and cold to complicated cases like meningitis and encephalitis. Along with General Medicine, Paediatrics unit has one of the highest patient load, especially during the wet season when communicable diseases are rampant.
               </p>
               <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 20px' }}>
-                We also have a ten bedded Neonatal Intensive Care Unit (NICU) equipped with ventilator, incubator and phototherapy units. Our facilities have enabled us in saving the lives of preterm infants and low birth weight babies weighing as less as nine hundred grams.
+                We also have a ten bedded Neonatal Intensive Care Unit (NICU) equipped with ventilator, incubator and phototherapy units. Our facilities have enabled us in saving the lives of preterm infants and low birth weight babies weighing as less as nine hundred grams. Our paediatric consultants are available round the clock for emergency consultations and attending complicated deliveries.
               </p>
               <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '13px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '12px' }}>Consultants</div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
