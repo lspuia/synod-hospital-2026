@@ -469,7 +469,7 @@ export default function ServicesPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px', marginTop: '20px' }}>
             <div>
               <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 18px' }}>
-                Our laboratory is open 24 × 7 and offers a wide range of pathological, biochemical and microbiological tests and investigations at affordable rates for our patients. We are currently in the process of acquiring NABL accreditation.
+                Our laboratory is open 24 × 7 and offers a wide range of pathological, biochemical and microbiological tests and investigations at affordable rates for our patients. We are currently in the process of acquiring NABL accreditation. Few of the facilities available are:
               </p>
               <div style={{ marginBottom: '14px' }}>
                 <h4 style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '18px', margin: '0 0 6px' }}>Pathology</h4>
