@@ -80,10 +80,10 @@ export default function GeneralInfoPage() {
           <div>
             <h4 style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '15px', letterSpacing: '.16em', textTransform: 'uppercase', color: 'var(--gold)', margin: '0 0 14px' }}>Visiting Hours</h4>
             {visitingHours.map((v, i) => (
-              <div key={i} style={{ display: 'flex', justifyContent: 'space-between', gap: '16px', padding: '10px 0', borderBottom: '1px solid var(--divider)', fontVariantNumeric: 'tabular-nums' }}>
+              <div key={i} style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', gap: '16px', padding: '10px 0', borderBottom: '1px solid var(--divider)', fontVariantNumeric: 'tabular-nums' }}>
                 <span>{v.from}</span>
-                <span style={{ color: 'var(--muted)' }}>to</span>
-                <span>{v.to}</span>
+                <span style={{ color: 'var(--muted)', textAlign: 'center' }}>to</span>
+                <span style={{ textAlign: 'right' }}>{v.to}</span>
               </div>
             ))}
           </div>
