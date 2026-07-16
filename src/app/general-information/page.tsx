@@ -183,9 +183,7 @@ export default function GeneralInfoPage() {
                 ))}
               </div>
             </div>
-            <div style={{ background: 'var(--surface)', minHeight: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--muted)', border: '6px solid var(--surface)', outline: '1px solid var(--divider)' }}>
-              <span>Clinic photo placeholder</span>
-            </div>
+            <Plate src="/images/synod-hospital-Millennium-clinic.jpg" alt="Millennium Centre Clinic" />
           </div>
         </div>
       </div>
