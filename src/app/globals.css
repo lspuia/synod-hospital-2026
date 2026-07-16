@@ -168,3 +168,16 @@ img {
   left: 0;
   color: var(--rule);
 }
+
+/* Sponsor link */
+.sponsor-link {
+  font-weight: 600;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.sponsor-link:hover {
+  color: var(--muted);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}

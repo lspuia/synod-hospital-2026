@@ -87,7 +87,7 @@ export default function Footer() {
               href="https://whitewalls.in/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ fontWeight: 600, color: 'var(--ink)' }}
+              className="sponsor-link"
             >
               White Walls Interior Design Studio
             </a>
