@@ -1,26 +1,170 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Colors - Classical design system */
+  --paper: #f3f2f2;
+  --surface: #eae9e9;
+  --ink: #201f1d;
+  --gold: #7d5411;
+  --rule: #b68235;
+  --muted: color-mix(in srgb, #201f1d 56%, transparent);
+  --divider: color-mix(in srgb, #201f1d 16%, transparent);
+
+  /* Accent ramp */
+  --accent-100: #fff3e4;
+  --accent-200: #ffe3bf;
+  --accent-300: #facb8d;
+  --accent-400: #e1ad66;
+  --accent-500: #c28d41;
+  --accent-600: #a06f24;
+  --accent-700: #7d5411;
+  --accent-800: #5a3b0a;
+  --accent-900: #3a270d;
+
+  /* Neutral ramp */
+  --neutral-100: #f8f4f4;
+  --neutral-200: #eae7e7;
+  --neutral-300: #d7d3d3;
+  --neutral-400: #bab6b6;
+  --neutral-500: #9b9797;
+  --neutral-600: #7d7979;
+  --neutral-700: #605d5d;
+  --neutral-800: #444141;
+  --neutral-900: #2d2b2b;
+
+  /* Typography */
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Lora', serif;
+
+  /* Spacing */
+  --content-max-width: 1120px;
+  --gutter: 24px;
+
+  /* Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 7px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-800);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Service anchor scroll offset */
+.svc-anchor {
+  scroll-margin-top: 90px;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--rule);
+  outline-offset: 2px;
+}
+
+/* Plate image wrapper */
+.plate {
+  border: 6px solid var(--surface);
+  outline: 1px solid var(--divider);
+}
+
+.plate img {
+  width: 100%;
+  object-fit: cover;
+  filter: sepia(0.18) saturate(0.85) contrast(1.03);
+}
+
+/* Outlined button */
+.btn-outlined {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--gold);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-md);
+  padding: 13px 26px;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-outlined:hover {
+  background: color-mix(in srgb, var(--rule) 12%, transparent);
+  color: var(--gold);
+}
+
+/* Section heading with accent bar */
+.section-heading {
+  position: relative;
+}
+
+.section-heading::before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 56px;
+  background: var(--rule);
+  margin-bottom: 14px;
+}
+
+/* Kicker / eyebrow text */
+.kicker {
+  font-family: var(--font-heading);
+  font-size: 13px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* Custom bullet list */
+.bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bullet-list li {
+  position: relative;
+  padding: 5px 0 5px 18px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.bullet-list li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--rule);
 }
