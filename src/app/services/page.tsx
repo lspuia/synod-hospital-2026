@@ -349,7 +349,7 @@ export default function ServicesPage() {
                 The Obstetrics and Gynaecology unit provides a comprehensive antenatal and postnatal care for high risk and complicated pregnancies. We have a labour room equipped with fetal monitors, and consultants available within the campus round the clock for emergencies. We are indeed fortunate to say that we are still one of the top choice for women across the state for maternity related services.
               </p>
               <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 20px' }}>
-                We also provide a wide range of gynaecological services, including cancer surgeries, infertility treatment, and open and laparoscopic surgeries for a variety of gynaecological disorders.
+                We also provide a wide range of gynaecological services, including cancer surgeries, infertility treatment, and open and laparoscopic surgeries for a variety of gynaecological disorders. We regularly carry out cervical cancer screening among rural women with Pap smear, which is provided free of cost with donations from our well wishers. A dedicated infertility unit with facilities for Intrauterine Insemination (IUI) is expected to function soon. We are also planning to start the painless labour programme in the near future.
               </p>
               <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '13px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '12px' }}>Consultants</div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
