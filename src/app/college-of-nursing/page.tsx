@@ -29,7 +29,7 @@ const courseDetails = [
   { k: 'Level of course', v: 'Graduation' },
   { k: 'Type', v: 'Degree' },
   { k: 'Eligibility', v: '10+2 (Science) or equivalent' },
-  { k: 'Intake capacity', v: '30 Students annually' },
+  { k: 'Intake capacity', v: '30 Students annually (As per INC Suitability Certificate)' },
 ];
 
 const feeRows = [
@@ -82,7 +82,7 @@ export default function CollegePage() {
         >
           <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '14px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '14px' }}>Our Philosophy</div>
           <p style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(19px, 2.4vw, 25px)', lineHeight: 1.5, fontStyle: 'italic', margin: 0 }}>
-            &quot;The College of Nursing at Synod Hospital, Durtlang is an educational institution run by the Presbyterian Church of Mizoram, whose primary aim is to educate and train young men and women to become good Christian nurses and to equip them in the spirit of Jesus Christ for service in the relief of sufferings, prevention of diseases and promotion of health.&quot;
+            &quot;The College of Nursing at Synod Hospital, Durtlang is an educational institutional run by the Presbyterian Church of Mizoram, whose primary aim is to educate and train young men and women to become good Christian nurses and to equip them in the spirit of Jesus Christ for service in the relief of sufferings, prevention of diseases and promotion of health. This implies not merely training in professional skills, but also in building good character and having right Christian attitude. The students and staffs are expected to maintain the highest degree of moral standards in their professional and private lives.&quot;
           </p>
         </blockquote>
 
@@ -117,9 +117,9 @@ export default function CollegePage() {
             <div style={{ display: 'grid', gridTemplateColumns: '130px 1fr' }}>
               <div style={{ padding: '12px 14px', borderRight: '1px solid var(--divider)', color: 'var(--muted)' }}>Members</div>
               <div style={{ padding: '12px 14px' }}>
-                <ol style={{ margin: 0, paddingLeft: '18px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                <ul className="bullet-list">
                   {governanceMembers.map((g, i) => <li key={i}>{g}</li>)}
-                </ol>
+                </ul>
               </div>
             </div>
           </div>
