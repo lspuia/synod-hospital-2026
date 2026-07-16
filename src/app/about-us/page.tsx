@@ -191,6 +191,44 @@ export default function AboutPage() {
           Although we no longer run dispensaries, we regularly organize mobile clinics on a regular basis throughout the year with the help and support of local churches and NGO&apos;s. The team usually comprises of a couple of doctors, including specialist doctors, staff nurses, laboratory and ophthalmic technicians, and pharmacist along with a huge stock of medicines. Apart from routine consultations, the team sometime holds public meetings and awareness campaigns on topics like HIV/AIDS, maternal and child health etc.
         </p>
 
+        <h3 style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '20px', margin: '24px 0 12px' }}>Mobile Clinics 2018</h3>
+        <div style={{ overflowX: 'auto' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: '400px' }}>
+            <thead>
+              <tr style={{ borderBottom: '2px solid var(--rule)' }}>
+                <th style={{ textAlign: 'left', padding: '10px 12px', fontWeight: 600 }}>Date</th>
+                <th style={{ textAlign: 'left', padding: '10px 12px', fontWeight: 600 }}>Place</th>
+                <th style={{ textAlign: 'right', padding: '10px 12px', fontWeight: 600 }}>No. of patients</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { date: '17th Jan 2018', place: 'Zawlpui', patients: '92' },
+                { date: '18th Jan 2018', place: 'Putlungasih', patients: '72' },
+                { date: '15th Feb 2018', place: 'Meidum/Pangbalkawn', patients: '379' },
+                { date: '12th Mar 2018', place: 'Mualpheng', patients: '414' },
+                { date: '13th Mar 2018', place: 'Mamit', patients: '432' },
+                { date: '30th Apr 2018', place: 'Khatla', patients: '467' },
+                { date: '29th Jun 2018', place: 'West Phaileng', patients: '311' },
+                { date: '22nd Sep 2018', place: 'Chawnpui', patients: '274' },
+                { date: '28th Oct 2018', place: 'East Lungdar', patients: '618' },
+                { date: '30th Oct 2018', place: 'Bungtlang', patients: '222' },
+              ].map((r, i) => (
+                <tr key={i} style={{ borderBottom: '1px solid var(--divider)' }}>
+                  <td style={{ padding: '10px 12px', fontVariantNumeric: 'tabular-nums' }}>{r.date}</td>
+                  <td style={{ padding: '10px 12px' }}>{r.place}</td>
+                  <td style={{ padding: '10px 12px', textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>{r.patients}</td>
+                </tr>
+              ))}
+              <tr style={{ fontWeight: 600 }}>
+                <td style={{ padding: '10px 12px' }}></td>
+                <td style={{ padding: '10px 12px' }}>TOTAL</td>
+                <td style={{ padding: '10px 12px', textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>3281</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         <hr style={{ height: '1px', border: 0, background: 'var(--divider)', margin: '48px 0' }} />
 
         {/* Chaplaincy */}

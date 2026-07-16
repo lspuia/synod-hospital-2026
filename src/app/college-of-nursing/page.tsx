@@ -64,10 +64,13 @@ export default function CollegePage() {
       <div style={{ maxWidth: '820px', margin: '0 auto', padding: 'clamp(28px, 4vw, 52px) 24px 80px' }}>
         {/* History */}
         <p style={{ fontSize: '16px', lineHeight: 1.8, margin: '0 0 16px' }}>
-          Dr John Williams LMP arrived at Lushai Hills on 22nd February 1928 and started the Welsh Mission Hospital as its solitary doctor. Since there were no nurses locally trained within Lushai Hills during those days, Dr Williams decided to start a school of nursing the same year. It became the first nursing school in Lushai Hills and continued to be the only one for a very long time.
+          Dr John Williams LMP arrived at Lushai Hills on 22nd February 1928 and started the Welsh Mission Hospital as its solitary doctor. Since there were no nurses locally trained within Lushai Hills during those days, Dr Williams decided to start a school of nursing the same year. It became the first nursing school in Lushai Hills and continued to be the only one for a very long time. The first student admitted was a 16-year-old girl named Khuangi, who continued to work for the hospital till 1936. The school was very rudimentary in nature with no proper recognition, and the medium of teaching was Lusei language. However, it augmented the nursing services and provided a much stable functioning for the hospital.
         </p>
         <p style={{ fontSize: '16px', lineHeight: 1.8, margin: '0 0 16px' }}>
-          The school has been upgraded to a College of Nursing recently with a degree programme ie, BSc (Nursing) with an annual intake of 30 students.
+          Dr G P Roberts and Sister GM Evans upgraded the school to a 4-year course in the year 1936 with an annual intake of 12 students. Recognition was obtained from the Indian Nursing Council in 1944, and the number of seats was increased from 12 to 16. However, the medium of teaching continued to be Lusei language. The training was always directed towards efficient patient care, skilled care in the wards, at the clinics, in the operating theatre and in the maternity and labour wards.
+        </p>
+        <p style={{ fontSize: '16px', lineHeight: 1.8, margin: '0 0 16px' }}>
+          By 1966, there were as many as 149 students who had successfully completed the course. The medium of teaching was changed from Lusei language to English in the year 1972. The school has been upgraded to a College of Nursing recently with a degree programme ie, BSc (Nursing) with an annual intake of 30 students.
         </p>
 
         {/* Philosophy */}
