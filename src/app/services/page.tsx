@@ -380,7 +380,7 @@ export default function ServicesPage() {
                 Our orthopaedics unit is among the very few centers in the state regularly performing paediatric orthopaedic disease and deformity correction surgeries, joint replacement surgeries and spine surgeries, apart from the routine trauma and fracture surgeries. The orthopaedics operation theatre is equipped with two C-Arm image intensifiers and a host of other special equipment which enables our surgeons to perform minimally invasive surgeries.
               </p>
               <p style={{ fontSize: '16px', lineHeight: 1.75, margin: '0 0 20px' }}>
-                The unit is backed up by a fully functional physiotherapy and occupational therapy unit. We also work closely with Cristoffel Blinden Mission (CBM) for the detection and management of physically handicapped patients through Community based Rehabilitation (CBR) programmes.
+                The unit is backed up by a fully functional physiotherapy and occupational therapy unit. We also work closely with Cristoffel Blinden Mission (CBM) for the detection and management of physically handicapped patients through Community based Rehabilitation (CBR) programmes. We are recognised by the state government as a referral centre for persons with disabilities.
               </p>
               <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '13px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '12px' }}>Consultants</div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
