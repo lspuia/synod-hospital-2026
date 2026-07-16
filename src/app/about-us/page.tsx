@@ -1,6 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 import SectionHeading from '@/components/SectionHeading';
 import Plate from '@/components/Plate';
+import ArchiveGallery from '@/components/ArchiveGallery';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -71,6 +72,7 @@ export default function AboutPage() {
               <li><a href="#Governance">Governance</a></li>
               <li><a href="#Finance">Finance</a></li>
               <li><a href="#Partners">Partners</a></li>
+              <li><a href="#PhotoArchive">Through the Years</a></li>
             </ul>
           </div>
         </div>
@@ -256,6 +258,15 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
+
+        <hr style={{ height: '1px', border: 0, background: 'var(--divider)', margin: '48px 0' }} />
+
+        {/* Photo Archive */}
+        <SectionHeading size="lg" id="PhotoArchive">Through the Years</SectionHeading>
+        <p style={{ fontSize: '15.5px', lineHeight: 1.8, margin: '16px 0 24px' }}>
+          A collection of historical photographs documenting our journey since 1928 - the missionaries, doctors, nurses, staff, and moments that shaped Synod Hospital.
+        </p>
+        <ArchiveGallery />
       </div>
     </>
   );
