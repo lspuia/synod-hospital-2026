@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer
@@ -28,10 +30,13 @@ export default function Footer() {
             >
               Synod Hospital, Durtlang
             </h4>
-            <p style={{ fontSize: '14px', lineHeight: 1.7, color: 'var(--muted)', margin: 0 }}>
+            <p style={{ fontSize: '14px', lineHeight: 1.7, color: 'var(--muted)', margin: '0 0 10px' }}>
               Durtlang, Aizawl<br />
               Mizoram – 796015
             </p>
+            <Link href="/privacy-policy" style={{ fontSize: '13px', color: 'var(--muted)', textDecoration: 'underline' }}>
+              Privacy Policy
+            </Link>
           </div>
           <div>
             <h4
