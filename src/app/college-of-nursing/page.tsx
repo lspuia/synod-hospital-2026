@@ -140,15 +140,16 @@ export default function CollegePage() {
           <h3 style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '21px', margin: '0 0 12px' }}>Admission criteria</h3>
           <p style={{ fontWeight: 600, margin: '0 0 8px' }}>A. Requirements</p>
           <ul className="bullet-list" style={{ marginBottom: '20px' }}>
-            <li>Candidates should have completed the age of 17, and not more than 35 years at the time of admission.</li>
-            <li>Higher Secondary School Certificate Examination (12 years course) with Science (Physics, Chemistry and Biology) and English with minimum of 50% aggregate marks.</li>
-            <li>Only unmarried women / men candidates are eligible to apply.</li>
-            <li>Candidates shall be psychologically and medically fit.</li>
+            <li>Candidates should have completed the age of 17, and not more than 35 years at the time of admission, or should complete the said age on or before 31st December of the said year.</li>
+            <li>The minimum educational qualification required shall be the passing of: Higher Secondary School Certificate Examination (12 years course) Or Senior School Certificate Examination (10+2), pre-degree examination (10+2) Or An equivalent with 12 years schooling from a recognised board or University with Science (Physics, Chemistry and Biology) and English with minimum of 50% aggregate marks</li>
+            <li>Only unmarried women / men candidates are eligible to apply</li>
+            <li>Candidates shall be psychologically and medically fit</li>
           </ul>
           <p style={{ fontWeight: 600, margin: '0 0 8px' }}>B. Entrance / Selection Test</p>
           <ul className="bullet-list">
-            <li>Selection of candidates shall be based on the entrance test and interview.</li>
-            <li>Students should follow the rules and regulations of Synod Hospital.</li>
+            <li>Selection of candidates shall be based on the entrance test and interview. Final selection will be done by the competent Authority of the Institution</li>
+            <li>Reservation shall be allocated from time to time as per notification of the Government between the respective states and other North-eastern states</li>
+            <li>Students should follow the rules and regulations of Synod Hospital</li>
           </ul>
         </div>
 
