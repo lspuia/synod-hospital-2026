@@ -130,7 +130,7 @@ const archiveImages = [
   'old lawmna ward.jpg',
 ];
 
-// Preview images - hand-picked interesting ones
+// Preview images - hand-picked interesting ones (12 images)
 const previewImages = [
   'Dr. John Williams.JPG',
   'Miss. G.M.Evans.JPG',
@@ -138,6 +138,12 @@ const previewImages = [
   'Nurses.jpg',
   'Fraser te nupa.JPG',
   'old lawmna ward.jpg',
+  'Dr. G.P.Roberts.JPG',
+  'Miss Eirlys Williams.JPG',
+  'R.K.Nghakliana.jpg',
+  'nurses - 32.jpg',
+  'Pu Daka farewell.jpg',
+  'group.jpg',
 ];
 
 function getDisplayName(filename: string): string {
@@ -185,9 +191,27 @@ export default function ArchiveGallery() {
 
   return (
     <>
+      <style>{`
+        .archive-preview-grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 12px;
+          margin-bottom: 20px;
+        }
+        @media (min-width: 600px) {
+          .archive-preview-grid {
+            grid-template-columns: repeat(3, 1fr);
+          }
+        }
+        @media (min-width: 900px) {
+          .archive-preview-grid {
+            grid-template-columns: repeat(4, 1fr);
+          }
+        }
+      `}</style>
       {/* Preview Grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '12px', marginBottom: '20px' }}>
-        {previewImages.map((img, i) => (
+      <div className="archive-preview-grid">
+        {previewImages.map((img) => (
           <button
             key={img}
             onClick={() => openGallery(archiveImages.indexOf(img))}
@@ -206,7 +230,7 @@ export default function ArchiveGallery() {
               src={`/archive_pics/${encodeURIComponent(img)}`}
               alt={getDisplayName(img)}
               fill
-              sizes="140px"
+              sizes="(min-width: 900px) 25vw, (min-width: 600px) 33vw, 50vw"
               style={{ objectFit: 'cover' }}
             />
           </button>
