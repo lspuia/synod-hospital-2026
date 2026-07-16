@@ -82,6 +82,7 @@ export default function GeneralInfoPage() {
             {visitingHours.map((v, i) => (
               <div key={i} style={{ display: 'flex', justifyContent: 'space-between', gap: '16px', padding: '10px 0', borderBottom: '1px solid var(--divider)', fontVariantNumeric: 'tabular-nums' }}>
                 <span>{v.from}</span>
+                <span style={{ color: 'var(--muted)' }}>to</span>
                 <span>{v.to}</span>
               </div>
             ))}
